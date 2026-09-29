@@ -1,0 +1,53 @@
+export const MOCK_RESTAURANTS = [
+  {
+    id: "rest-101",
+    name: "Saffron Spice & Grill",
+    cuisine: "North Indian, Biryani & Mughlai",
+    type: "Non-Veg & Veg",
+    priceForTwo: 900,
+    rating: 4.7,
+    reviewCount: 1120,
+    distanceKm: 0.8,
+    isOpen: true,
+    openingHours: "11:30 AM - 11:00 PM",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    address: "Road 12, Banjara Hills",
+    topDishes: ["Hyderabadi Dum Biryani", "Butter Chicken", "Garlic Naan", "Tandoori Platter"],
+    deliveryAvailable: true,
+    reviewSummary: "Acclaimed for rich authentic flavors, generous portion sizes, and cozy ambient lighting."
+  },
+  {
+    id: "rest-102",
+    name: "Pure Green Sattvic Organic Dining",
+    cuisine: "Pure Veg, South Indian Thali & Healthy Salads",
+    type: "100% Pure Veg",
+    priceForTwo: 600,
+    rating: 4.8,
+    reviewCount: 780,
+    distanceKm: 1.4,
+    isOpen: true,
+    openingHours: "07:30 AM - 10:00 PM",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    address: "Opposite Silicon Tower, Hitech City",
+    topDishes: ["Executive Royal Veg Thali", "Cold Pressed Juice Bowl", "Ghee Roast Dosa", "Quinoa Salad"],
+    deliveryAvailable: true,
+    reviewSummary: "Loved by health enthusiasts for zero palm oil, fresh organic farm ingredients, and quick service."
+  },
+  {
+    id: "rest-103",
+    name: "Artisan Bistro & Coffee Roasters",
+    cuisine: "Continental, Italian, Speciality Coffee & Desserts",
+    type: "Non-Veg & Veg",
+    priceForTwo: 1200,
+    rating: 4.6,
+    reviewCount: 540,
+    distanceKm: 2.2,
+    isOpen: true,
+    openingHours: "08:00 AM - 11:30 PM",
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
+    address: "Near Cable Bridge View, Jubilee Hills",
+    topDishes: ["Wood-fired Truffle Pizza", "Avocado Toast", "Pour-over Single Origin Coffee", "Tiramisu"],
+    deliveryAvailable: true,
+    reviewSummary: "Popular aesthetic cafe spot with outdoor scenic seating and handcrafted artisan coffee."
+  }
+];
